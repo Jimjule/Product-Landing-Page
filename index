@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@media (max-width: 100px) {
+  #nav-bar {
+    height: 10vw;
+  }
+  #features, #how-it-works, #pricing {
+    height: 90wv;
+  }
+}
+
+#nav-bar {
+  height: 5vw;
+  font-family: 'Raleway', sans-serif;
+}
+
+#nav-bar-buttons {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+}
+
+#header-img {
+  height: 5vw;
+}
+
+#bar {
+  background-color: #eee;
+  height: 5vw;
+}
+
+#features {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#features h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vw;
+  padding: 2vw;
+}
+
+#features h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5vw;
+  padding: 5vw;
+}
+
+#features p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+  padding: 1vw;
+}
+
+#how-it-works{
+  background-color: #eee;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+#video {
+  width: 70vw;
+}
+
+#pricing{
+  background-color: #eee;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#price1, #price2, #price3 {
+  background-color: #bf3d4b;
+  display: grid;
+  grid-template-columns: 5vw 5vw 5vw;
+  grid-column-gap: 50px;
+  height: 30vw;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <nav class = "navbar fixed-top navbar-expand-lg navbar-light" id = "nav-bar">
+        <a class = "navbar-brand" href = "#"><h1>Giniper</h1></a>
+        <img src = "https://image.ibb.co/iYk2AK/giniper2.png" alt="giniper2" border="0" " id = "header-img">
+    <ul class="navbar-nav container" id = nav-bar-buttons>
+      <a class="nav-link btn btn-info active" href="#features">Features</a>
+      <a class="nav-link btn btn-info active" href="#how-it-works">How It Works</a>
+      <a class="nav-link btn btn-info active" href="#pricing">Pricing</a>
+    </ul>
+  </div>
+      </nav>
+    </header> 
+    <div id = "bar"></div>
+    <div id = "features">
+      <h2>Every Bottle an Artwork</h2>
+  <form action="https://www.freecodecamp.com/email-submit" id="form" name="email-form">
+  <input type="email" id="email" placeholder="Email" name="email">
+<input type="submit" id="submit" value="Go!">
+  </form>                             <h3>All Ingredients Locally Sourced</h3>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <h3>Sold in Every Major Bar and in Shops</h3>
+   <p>Lorem ipsum dolor sit amet.</p>
+  <h3>A Gin that Gives Back</h3><p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  <div id="how-it-works">
+<iframe id="video" src="https://www.youtube-nocookie.com/embed/BoX1vB8BH90?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>                       
+  </div>
+  <div id="pricing" class="container">
+  <div id="price1"></div>
+  <div id="price2"></div>
+  <div id="price3"></div>
+  </div>
+  </body>
+</html>
